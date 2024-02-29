@@ -6,7 +6,10 @@
 ### 1. Pose Estimation Model:  
 * Existing deep learning frameworks such as TensorFlow or PyTorch can be used to train and deploy a pose estimation model. These frameworks offer 
   extensive support for neural network architectures and are widely used in the research community.  
-* Alternatively, use a pre-trained model from a library such as __OpenPose__, which offers an efficient pose estimation solution.
+* Alternatively, use a pre-trained model from a library such as (__OpenPose__)[https://github.com/CMU-Perceptual-Computing-Lab/openpose/blob/master/doc/installation/0_index.md], which offers an efficient pose estimation solution.
+* Option a, installing OpenPose: On an Ubuntu or OSX based system, you could install OpenPose by running sudo make install , you could then set
+  the OpenPose path in your python scripts to the OpenPose installation path (default: /usr/local/python ) and start using OpenPose at any
+  location.
   
 ###    2. Interfacing Layer:  
 * Python serves as a robust choice for the interfacing layer due to its flexibility, ease of integration with machine learning libraries, 
