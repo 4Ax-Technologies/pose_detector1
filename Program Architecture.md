@@ -2,10 +2,10 @@
 
 ## Pose Estimation Model to Unreal Engine physics
 
-###    1. Pose Estimation Model:  
-        * Existing deep learning frameworks such as TensorFlow or PyTorch can be used to train and deploy a pose estimation model. These frameworks offer 
-        extensive support for neural network architectures and are widely used in the research community.  
-        * Alternatively, use a pre-trained model available in popular libraries like OpenPose, which offer efficient pose estimation solutions.  
+### 1. Pose Estimation Model:  
+* Existing deep learning frameworks such as TensorFlow or PyTorch can be used to train and deploy a pose estimation model. These frameworks offer 
+  extensive support for neural network architectures and are widely used in the research community.  
+* Alternatively, use a pre-trained model available in popular libraries like OpenPose, which offer efficient pose estimation solutions.  
 ###    2. Interfacing Layer:  
         * Python serves as a robust choice for the interfacing layer due to its flexibility, ease of integration with machine learning libraries, 
         and its support within Unreal Engine.  
