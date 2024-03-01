@@ -1,4 +1,4 @@
-# Suggested architecture/language mix: 
+# Architecture/language overview: 
 
 ## Pose Estimation Model to Unreal Engine physics
 
@@ -30,6 +30,6 @@
 ###    5. Feedback Loop:  
 * A feedback loop should be implemented to continuously update the physics parameters based on the real-time output of the pose estimation model.
 * Synchronization between the pose estimation model's output, the physics simulation in Unreal Engine, and the rendering pipeline is necessary 
-  to maintain a seamless and responsive simulation experience.  
+  to maintain seamless and responsive simulation experiences.  
         
 This architecture and language mix should ensure the development of a robust system that seamlessly integrates pose estimation with game engine physics in Unreal Engine, leveraging the strengths of each component to deliver the most immersive and interactive experiences.
