@@ -10,7 +10,6 @@
 * OpenPose is very good, but it's functionality greatly exceeds what is required and brings with it an undesirable drain on computational overhead
   for this use case.
 * OpenPose was trained on the COCO 2017 dataset. Pose_detector1 uses a resnet18 backbone detectnet_v2 model trained on a relevant subset of COCO 2017.
-* Relevant classes ('person) from COCO 2017 was downloaded from [__FiftyOne__](https://docs.voxel51.com/user_guide/dataset_zoo/datasets.html) using [__this code__](https://github.com/4Ax-Technologies/pose_detector1/blob/unpickme-patch-1/FiftyOne_download.py)  
   
 ###    2. Interfacing Layer:  
 * Python serves as a robust choice for the interfacing layer due to its flexibility, ease of integration with machine learning libraries, 
