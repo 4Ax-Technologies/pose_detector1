@@ -7,8 +7,9 @@
 * Existing deep learning frameworks such as TensorFlow or PyTorch can be used to train and deploy a pose estimation model. These frameworks offer 
   extensive support for neural network architectures and are widely used in the research community.  
 * Alternatively, use a pre-trained model from a library such as [__OpenPose__](https://github.com/CMU-Perceptual-Computing-Lab/openpose/blob/master/doc/installation/0_index.md) , which offers an efficient pose estimation solution.
-* Install OpenPose: "$ sudo make install" and set the OpenPose path in python scripts to the OpenPose installation path (default: /usr/local/python ) and use OpenPose at any
-  location on the machine.
+* OpenPose is very good, but it's functionality greatly exceeds what is required and brings with it an undesirable drain on computational overhead
+  for this use case.
+* It was trained on the COCO 2017 dataset. Pose_detector1 uses a resnet18 backbone detectnet_v2 model trained on a relevant subset of COCO 2017.
   
 ###    2. Interfacing Layer:  
 * Python serves as a robust choice for the interfacing layer due to its flexibility, ease of integration with machine learning libraries, 
