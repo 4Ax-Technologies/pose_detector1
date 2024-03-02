@@ -9,7 +9,7 @@
 * Alternatively, use a pre-trained model from a library such as [__OpenPose__](https://github.com/CMU-Perceptual-Computing-Lab/openpose/blob/master/doc/installation/0_index.md) , which offers an efficient pose estimation solution.
 * OpenPose is very good, but it's functionality greatly exceeds what is required and brings with it an undesirable drain on computational overhead
   for this use case.
-* It was trained on the COCO 2017 dataset. Pose_detector1 uses a resnet18 backbone detectnet_v2 model trained on a relevant subset of COCO 2017.
+* OpenPose was trained on the COCO 2017 dataset. Pose_detector1 uses a resnet18 backbone detectnet_v2 model trained on a relevant subset of COCO 2017.
 * Relevant classes () from COCO 2017 were downloaded from [__FiftyOne__](https://docs.voxel51.com/user_guide/dataset_zoo/datasets.html) using [__this code__]  
   
 ###    2. Interfacing Layer:  
