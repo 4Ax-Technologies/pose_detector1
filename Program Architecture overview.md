@@ -35,4 +35,4 @@
 * Synchronization between the pose estimation model's output, the physics simulation in Unreal Engine, and the rendering pipeline is necessary 
   to maintain seamless and responsive simulation experiences.  
         
-This architecture and language mix should ensure the development of a robust system that seamlessly integrates pose estimation with game engine physics in Unreal Engine, leveraging the strengths of each component to deliver the most immersive and interactive experiences.
+This architecture and language mix ensures a robust system that seamlessly integrates pose estimation with game engine physics in Unreal Engine, leveraging the strengths of each component to deliver the most immersive and interactive experiences.
