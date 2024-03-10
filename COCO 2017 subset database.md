@@ -7,4 +7,4 @@
 
 Please note that the test dataset has no annotations. 
 
-If test annotations are required, please consider reserving a holdback subset of the "val" subset to ise in the testing phase.
+If test annotations are required, please consider reserving a holdback subset of the "val" subset to use in the testing phase.
