@@ -1,3 +1,7 @@
+# Person Pose database
+
+The database was built from a subset of the '__person__' class of the COCO 2017 database. One method for this is to download it via FiftyOne. 
+
 ### Relevant classes ('person') from COCO 2017 can be downloaded from [__FiftyOne__](https://docs.voxel51.com/user_guide/dataset_zoo/datasets.html)
   using [__this code__](https://github.com/4Ax-Technologies/pose_detector1/blob/unpickme-patch-1/FiftyOne_download.py) as three splits.
   
