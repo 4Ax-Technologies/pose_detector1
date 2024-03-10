@@ -8,7 +8,7 @@
   extensive support for neural network architectures and are widely used in the research community.  
 * Alternatively, use a pre-trained model from a library such as [__OpenPose__](https://github.com/CMU-Perceptual-Computing-Lab/openpose/blob/master/doc/installation/0_index.md) , which offers an efficient pose estimation solution.
 * OpenPose is very good, but it's functionality greatly exceeds what is required and brings with it an undesirable drain on computational overhead
-  for this use case.
+  for this use case.  
 * OpenPose was trained on the COCO 2017 dataset. Pose_detector1 uses a resnet18 backbone detectnet_v2 model trained on a relevant subset of COCO 2017.
 * pose_detector1 uses a Resnet 18 backbone, which was trained on a sample of the "person" class contained within the 80 class COCO 2017 database
 * In evaluation it achieved 95%+ accuracy. 
