@@ -16,13 +16,13 @@
 ###    2. Interfacing Layer:  
 * Python serves as a robust choice for the interfacing layer due to its flexibility, ease of integration with machine learning libraries, 
   and its support within Unreal Engine.  
-* Python scripts will be used to process the output from the pose estimation model and extract relevant information such as joint positions, 
+* Python scripts are used to process the output from the pose estimation model and extract relevant information such as joint positions, 
   angles, and gestures.
   
 ###    3. Communication Bridge:  
-* Establish a communication bridge between the Python scripts and Unreal Engine, using methods such as inter-process communication (IPC), 
-  sockets, or dedicated plugins.  
-* Leverage plugins like UnrealCV or Python.NET, which enable communication between Python and Unreal Engine.
+* Establishes a communication bridge between the Python scripts and Unreal Engine, using methods such as inter-process communication (IPC), 
+  sockets and dedicated plugins.  
+* Plugins used include UnrealCV and Python.NET.
   
 ###    4. Physics Control in Unreal Engine:  
 * Unreal Engine's Blueprint visual scripting system or its native C++ API could be used to set up and control physics interactions based 
@@ -31,7 +31,7 @@
   tasks or complex logic, it is better to implement custom physics behaviour using C++ to ensure optimal performance and flexibility.
   
 ###    5. Feedback Loop:  
-* A feedback loop should be implemented to continuously update the physics parameters based on the real-time output of the pose estimation model.
+* A feedback loop will be implemented to continuously update the physics parameters based on the real-time output of the pose estimation model.
 * Synchronization between the pose estimation model's output, the physics simulation in Unreal Engine, and the rendering pipeline is necessary 
   to maintain seamless and responsive simulation experiences.  
         
