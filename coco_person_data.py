@@ -6,7 +6,7 @@ from pycocotools.coco import COCO
 # Function to download COCO annotations for a specific category
 def download_coco_annotations(annotations_url, save_dir, category_name):
     os.makedirs(save_dir, exist_ok=True)
-    annotations_file = os.path.join(save_dir, f"annotations_{person}  trainval2017.zip")
+    annotations_file = os.path.join(save_dir, f"annotations_{person}_trainval2017.zip")
     
     # Download annotations zip file
     print(f"Downloading COCO annotations for {person}...")
@@ -25,7 +25,7 @@ def download_coco_images(images_url, save_dir, category_name, num_images_to_down
     person = category_name
     smallset =  num_images_to_download
     os.makedirs(save_dir, exist_ok=True)
-    images_file = os.path.join(save_dir, "images_{person}_trainval2017.zip")
+    images_file = os.path.join(save_dir, f"images_{person}_trainval2017.zip")
     
     # Download images zip file
     print("Downloading COCO images for (person}...")
