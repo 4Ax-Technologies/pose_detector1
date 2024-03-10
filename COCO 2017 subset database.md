@@ -12,3 +12,7 @@ The database was built from a subset of the '__person__' class of the COCO 2017 
 Please note that the test dataset has no annotations. 
 
 If test annotations are required, please consider reserving a holdback subset of the "val" subset to use in the testing phase.
+
+______
+
+
