@@ -1,4 +1,4 @@
-# Architecture/language overview: 
+# Architecture/language overview 
 
 ## Pose Estimation Model to Unreal Engine physics
 
