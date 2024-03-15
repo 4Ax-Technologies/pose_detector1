@@ -19,5 +19,5 @@ ______
 ### Prototype phase
 
 A bespoke database [0.1] was developed for a 'quick & dirty' prototype that achieved 100% performance, providing seamless transitions in the game
-environment's physics engine. A 10000 image database was split into three:  __train__ : 7500   -   __val__ : 1500   -   __test__ : 1000. During
+environment's physics engine. A 11595 image database was split into three:  __train__ : 8000   -   __val__ : 2595   -   __test__ : 1000. During
 training, using Nvidia's TAO toolkit, selected standard augmentation procedures were used.
