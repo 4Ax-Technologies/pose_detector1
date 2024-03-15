@@ -11,7 +11,7 @@
   for this use case.  
 * OpenPose was trained on the COCO 2017 dataset.  
 * pose_detector1 uses a Resnet 18 backbone detectnet_v2 model, which was trained on a sample of the "person" class contained within the 80 class COCO 2017 database
-* In evaluation it achieved 95%+ accuracy. 
+* In evaluation it currently achieves 98%+ accuracy. 
   
 ###    2. Interfacing Layer:  
 * Python serves as a robust choice for the interfacing layer due to its flexibility, ease of integration with machine learning libraries, 
