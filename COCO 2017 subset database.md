@@ -18,7 +18,7 @@ ______
 
 ### Prototype phase
 
-A bespoke database [0.1] was developed for a 'quick & dirty' prototype that achieved 98% accuracy performance, providing seamless transitions in the game
+A bespoke database [0.1] was developed for a quick & dirty prototype that achieved 98% accuracy performance, providing seamless transitions in the game
 environment's physics engine. The 11595 image prototype database was split into three:  __train__ : 8000   -   __val__ : 2595   -   __test__ : 1000. During
 training, using Nvidia's TAO toolkit, selected standard augmentation procedures were used.
 
