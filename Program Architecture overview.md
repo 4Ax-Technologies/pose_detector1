@@ -17,6 +17,7 @@
   and its support within Unreal Engine.  
 * Python scripts are used to process the output from the pose estimation model and extract relevant information such as joint positions, 
   angles, and gestures.
+* This interface framework will involve processing the output from the pose estimation model in Python and translating it into scripts that Unreal Engine can interpret.
   
 ###    3. Communication Bridge:  
 * Establishes a communication bridge between the Python scripts and Unreal Engine, using methods such as inter-process communication (IPC), 
