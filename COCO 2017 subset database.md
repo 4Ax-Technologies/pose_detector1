@@ -27,6 +27,7 @@ ______
 
 ### Development phase
 
-In this phase the entire COCO trainval dataset was downloaded and all irrelevant classes were then discarded. The 64115 images were split as follows: __train__ : 50000   -   __val__ : 10000   -   __test__ : 4115.
+In this phase the entire COCO trainval dataset was downloaded and all irrelevant classes were then discarded. The 64115 images present in the 'person' class
+were split as follows: __train__ : 40000   -   __val__ : 20000   -   __test__ : 4115.
 
 
