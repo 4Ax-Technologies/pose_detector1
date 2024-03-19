@@ -47,7 +47,7 @@ def construct_animation_script(joint_positions, gestures, pose_class):
 # Main loop to continuously process pose estimation output and send to Unreal Engine
 def main():
     while True:
-        # Placeholder for pose estimation output (replace with actual output from your model)
+        # Placeholder for pose estimation output (replace with actual output from pose_estimation model)
         pose_output = {
             "joint_positions": {...},  # Dictionary containing joint positions
             "gestures": [...],         # List of detected gestures
