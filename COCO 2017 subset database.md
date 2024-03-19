@@ -18,9 +18,9 @@ ______
 
 ### Prototype phase
 
-A bespoke database [0.1] was developed for a quick & dirty prototype that achieved beter than 95% accuracy performance, providing seamless transitions in the game
-environment's physics engine. The 11595 image prototype database, was downloaded from the [COCO 2017 website](https://) using [coco_person_data.py](https:github.com/4Ax-Technologies/pose_detector1/coco_person_data.py), unzipped using 7-zip and was split into three subsets:  __train__ : 8000   -   __val__ : 2595   -   __test__ : 1000. 
-During training, using Nvidia's TAO toolkit, selected standard augmentation procedures were used.
+A bespoke database [0.1] was developed for a quick & dirty prototype. The 11595 image prototype database, was downloaded from the [COCO 2017 website](https://) using [coco_person_data.py](https:github.com/4Ax-Technologies/pose_detector1/coco_person_data.py), unzipped using [7-zip]() and was split into three subsets:  __train__ : 8000   -   __val__ : 2595   -   __test__ : 1000. 
+During training, using Nvidia's TAO toolkit, selected standard augmentation procedures were used. The prototype achieved beter than 95% accuracy performance, providing seamless transitions 
+in the game environment's physics engine
 
 
 ______
