@@ -1,5 +1,4 @@
-
-Here's a framework in Python:
+# Here's a framework for the interface in Python:
 
 import unreal_engine_api as ue
 import time
