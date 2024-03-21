@@ -22,7 +22,7 @@
 ###    3. Communication Bridge:  
 * Establishes a communication bridge between the Python scripts and Unreal Engine, using methods such as inter-process communication (IPC), 
   sockets and dedicated plugins.  
-* Plugins used include UnrealCV and Python.NET.
+* Plugins that can be used include [UnrealCV](http://docs.unrealcv.org/en/latest/plugin/install.html) and Python.NET.
   
 ###    4. Physics Control in Unreal Engine:  
 * Unreal Engine's Blueprint visual scripting system or its native C++ API could be used to set up and control physics interactions based 
