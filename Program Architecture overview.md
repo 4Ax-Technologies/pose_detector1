@@ -6,7 +6,7 @@
 ### 1. Pose Estimation Model:  
 * Existing deep learning frameworks such as TensorFlow or PyTorch can be used to train and deploy a pose estimation model. These frameworks offer 
   extensive support for neural network architectures and are widely used in the research community.  
-* Alternatively, a pre-trained model from a library such as [__OpenPose__](https://github.com/CMU-Perceptual-Computing-Lab/openpose/blob/master/doc/installation/0_index.md)  
+* Alternatively, a pre-trained model from a library such as [__OpenPose__](https://github.com/CMU-Perceptual-Computing-Lab/openpose/blob/master/doc/installation/0_index.md)   
   could be used. This method offers an efficient and powerful pose estimation solution.
 * OpenPose is very good, but it's functionality probably exceeds what is required and brings with it an undesirable computational overhead for this use case.  
 * OpenPose was trained on the COCO 2017 dataset.  
